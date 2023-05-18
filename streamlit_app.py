@@ -33,7 +33,7 @@ streamlit.text(fruityvice_response)
 
 streamlit.header("Fruityvice Fruit Advice!")
 import requests
-fruityvice_respose = requests.get("https://fruityvice.com/api/fruit/"+"kiwi")
+fruityvice_respose = requests.get("https://fruityvice.com/api/fruit/" + "kiwi")
 
 
 # write your own comment -what does the next line do? 
