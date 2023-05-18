@@ -34,7 +34,7 @@ streamlit.text(fruityvice_response)
 streamlit.header("Fruityvice Fruit Advice!")
 imort requests
 fruityvice_respose = requests.get("https://fruityvice.com/api/fruit/watermelon")
-streamlit.text(fruityvice_response_json())
+streamlit.text(fruityvice_response.json())
 
 
 
